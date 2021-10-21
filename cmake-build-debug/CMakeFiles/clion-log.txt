@@ -1,0 +1,28 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe" -DCMAKE_C_FLAGS=-m64 -DCMAKE_CXX_FLAGS=-m64 -G "CodeBlocks - NMake Makefiles" X:\UNI\GIC++\breakout-2020-mooseman48
+-- The C compiler identification is Clang 8.0.1 with MSVC-like command-line
+-- The CXX compiler identification is Clang 8.0.1 with MSVC-like command-line
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning at CMakeLists.txt:12 (find_package):
+  Could not find a configuration file for package "SFML" that is compatible
+  with requested version "2.5.1".
+
+  The following configuration files were considered but not accepted:
+
+    C:/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake, version: 2.5.1 (32bit)
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug

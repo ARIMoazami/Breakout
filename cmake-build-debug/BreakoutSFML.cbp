@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BreakoutSFML"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML-2.5.1\;CMake Files\SFML-2.5.1\lib\;CMake Files\SFML-2.5.1\lib\cmake\;CMake Files\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BreakoutSFML">
+				<Option output="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug/BreakoutSFML.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 BreakoutSFML"/>
+					<CompileFile command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BreakoutSFML/fast">
+				<Option output="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug/BreakoutSFML.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 BreakoutSFML/fast"/>
+					<CompileFile command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="X:/UNI/GIC++/breakout-2020-mooseman48/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\UNI\GIC++\breakout-2020-mooseman48\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/Game.cpp">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/Game.h">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/GameObject.cpp">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/GameObject.h">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/Vector2.cpp">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/Vector2.h">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/src/main.cpp">
+			<Option target="BreakoutSFML"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="X:/UNI/GIC++/breakout-2020-mooseman48/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
